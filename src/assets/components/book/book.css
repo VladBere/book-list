@@ -1,0 +1,45 @@
+.bookWrapper {
+    display: flex;
+    width: 320px;
+    height: 70px;
+    border: 1px rgba(0, 0, 0, 0.25) solid;
+    align-items: center;
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.bookName {
+    width: 210px;
+}
+
+.bookBtn {
+    background-color: #CC2936;
+    width: 65px;
+    height: 50px;
+    padding: 7px 12px;
+    border-radius: 5px;
+    border: 0;
+    transition: 300ms;
+    margin-left: 10px;
+}
+
+.bookCheckbox{
+    width: 20px;
+    height: 20px;
+}
+
+.bookBtn:hover {
+    background-color: #cc2937ea;
+    transition: 300ms;
+}
+
+.bookBtn:active{
+    background-color: #b6202d;
+}
+
+.imgDelete {
+    width: 35px;
+    height: 35px;
+}
